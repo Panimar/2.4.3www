@@ -1,0 +1,73 @@
+#top
+{
+ 
+    text-align: center;
+    font-family: verdana;
+    font-size: 120%;
+     
+    width: 100%;
+    color: #ffffff;
+    padding-top: 15%;
+    
+ 
+}
+
+#menu_itc {
+ text-align:center;
+ font-size: 120%;
+
+}
+#menu_itc div {
+margin-left: auto;
+margin-right: auto;
+ width:500px;
+ padding-left: 3%
+}
+
+#menu_itc a {
+ display:block; 
+ float:left; 
+ text-align:center; 
+ padding: 10px 18px;
+ text-decoration: none;
+}
+
+
+#container {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#footer a, #footer a:visited, #footer a:active {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.85em;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}

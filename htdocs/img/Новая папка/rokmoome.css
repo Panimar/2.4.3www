@@ -1,0 +1,99 @@
+ul.menutop, ul.menutop * {
+	margin:0;
+	padding:0;
+}
+
+
+#horiz-menu {  /* this is a z-index ie6 and ie7 bug fix */
+	position: relative;
+	z-index: 70;
+}
+
+#horiz-menu .wrapper {
+	position: relative;
+}
+
+
+#horiz-menu ul.menutop {
+	line-height:1.0;
+	float:left;
+	position: relative;
+}
+ul.menutop ul {
+	background:#000; /*IE6 needs this*/
+	padding: 0;
+}
+
+#horiz-menu ul.menutop li {
+	float:left;
+	list-style:none;
+	position:relative;
+}
+
+ul.menutop li li a {
+	display:block;
+	padding: 0;
+	text-decoration:none;
+	background-image: none;
+	float:none;
+	width:175px;
+}
+
+#horiz-menu li li a{
+}
+
+#horiz-menu li:hover {background-position: 0 0;}
+
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.active:hover li,
+#horiz-menu li.active.sfHover li {
+	background-image: none;
+}
+
+#horiz-menu li li:hover li a,
+#horiz-menu li li.sfHover li a,
+#horiz-menu li:hover li a,
+#horiz-menu li.sfHover li a,
+#horiz-menu li.active:hover li a,
+#horiz-menu li.active.sfHover li a {
+	background-image: none;
+}
+
+ul.menutop li ul {
+	float:none;
+	top:-999em;
+	position:absolute;
+	width: 250px;
+	z-index: 5;
+}
+
+ul.menutop li:hover ul,
+ul.menutop li.sfHover ul {
+	left:-2px;
+	top: 33px;
+}
+ul.menutop li:hover li ul,
+ul.menutop li.sfHover li ul,
+ul.menutop li li:hover li ul,
+ul.menutop li li.sfHover li ul,
+ul.menutop li li li:hover li ul,
+ul.menutop li li li.sfHover li ul {
+	top:-999em;
+}
+ul.menutop li li:hover ul,
+ul.menutop li li.sfHover ul,
+ul.menutop li li li:hover ul,
+ul.menutop li li li.sfHover ul,
+ul.menutop li li li li:hover ul,
+ul.menutop li li li li.sfHover ul {
+	left: 175px;
+	top:50px;
+	width: 195px;
+}
+
+ul.menutop li li {
+	position: relative;
+	float:none;
+	width: 275px;
+}
